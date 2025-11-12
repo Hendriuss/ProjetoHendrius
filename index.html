@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo a Solaris</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header class="bg-danger text-white text-center py-5 shadow">
+        <div class="container">
+            <h1 class="display-1 fw-bold">SOLARIS ✨</h1>
+            <p class="lead">Onde a ciência encontra a história sob um céu de estrelas.</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        
+        <section class="mb-5">
+            <h2 class="text-center mb-4 border-bottom border-warning pb-2">Explore Solaris</h2>
+            
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                
+                <div class="col">
+                    <div class="card h-100 shadow card-hover cursor-pointer">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">🏛️ Pontos Turísticos</h5>
+                            <p class="card-text">Descubra os tesouros históricos, mirantes e a arquitetura única inspirada na astronomia.</p>
+                            <a href="pontos_turisticos.html" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow card-hover cursor-pointer">
+                       
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">🍽️ Comidas Típicas</h5>
+                            <p class="card-text">Sabores exóticos da culinária local que mistura ingredientes regionais com um toque astrofísico.</p>
+                            <a href="comidas_tipicas.html" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow card-hover">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">📅 Eventos Especiais</h5>
+                            <p class="card-text">Fique por dentro dos festivais de astronomia, feiras culturais e celebrações anuais.</p>
+                            
+                            <button class="btn btn-sm btn-outline-danger w-100 mt-2" 
+                                    type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#eventosInfo" 
+                                    aria-expanded="false" 
+                                    aria-controls="eventosInfo">
+                                Veja o Calendário
+                            </button>
+                            
+                            <div class="collapse mt-2" id="eventosInfo">
+                                <ul class="list-group list-group-flush small">
+                                    <li class="list-group-item">Festa das Flores (Novembro)</li>
+                                    <li class="list-group-item">Maringá Encantada (Dezembro)</li>
+                                    <li class="list-group-item">Expoingá (Maio)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="text-center my-5">
+            <h2 class="mb-4 border-bottom border-warning pb-2">Galeria de Memórias</h2>
+            <div class="row row-cols-2 row-cols-md-4 g-3">
+                
+                <div class="col">
+                    <div class="gallery-item">
+                        <img src="Assetes/img1.jpg" alt="Praça Central" class="img-fluid">
+                        <div class="caption">1° avião que tocou a terra Maringaense</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-item">
+                        <img src="Assetes/img2.jpg" alt="Cais ao pôr do sol" class="img-fluid">
+                        <div class="caption">Uma visão panorâmica: Centro do "Maringá Novo" - Década de 1960</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-item">
+                        <img src="Assetes/img3.jpg" alt="Rua histórica" class="img-fluid">
+                        <div class="caption">Catedral em construção - Década de 1960</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-item">
+                        <img src="Assetes/img4.jpg" alt="Vista da Montanha" class="img-fluid">
+                        <div class="caption">Arquidiocese de Maringá</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-0">© 2025 Solaris Turismo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
